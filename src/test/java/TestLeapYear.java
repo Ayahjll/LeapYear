@@ -12,8 +12,8 @@ public class TestLeapYear {
 
     @Test
     public void isLeapYear () {
-        Assertions.assertEquals(true, 2000);
-        Assertions.assertEquals(true, 2020);
+        Assertions.assertEquals(true, LeapYear.isLeapYear(2020));
+        Assertions.assertEquals(true, LeapYear.isLeapYear(2020));
     }
 }
 
